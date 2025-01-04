@@ -1,0 +1,12 @@
+Django>=4.0,<5.0
+djangorestframework>=3.14.0,<4.0
+djangorestframework-simplejwt>=5.2.2,<6.0
+psycopg2>=2.9.3,<3.0  # Replace with your preferred database adapter if needed
+python-dotenv>=1.0.0  # For environment variables (optional, useful for secrets)
+
+# Additional dependencies for deployment
+gunicorn>=20.0.4,<21.0  # Production WSGI server
+whitenoise>=6.3.0,<7.0  # Static files handling
+
+# Optional dependencies for testing and development
+django-debug-toolbar>=3.8.1,<4.0  # Debugging in development
